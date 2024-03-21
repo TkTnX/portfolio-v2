@@ -1,0 +1,38 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  font-size: 20px;
+}
+
+.list__item {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #22abb4;
+    bottom: 0;
+    transition: all 0.2s ease-in;
+  }
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+}

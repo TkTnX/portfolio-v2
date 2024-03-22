@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 379px) {
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -45,4 +48,43 @@
   @media (max-width: 449px) {
     font-size: 18px;
   }
+}
+
+.theme {
+  background-color: #e4e4e4;
+  width: 80px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  text-align: left;
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 5px;
+    transition: all 0.2s ease-in;
+    @media (max-width: 485px) {
+      justify-self: center;
+    }
+  }
+
+  @media (max-width: 485px) {
+    width: 50px;
+    padding: 0;
+    display: grid;
+  }
+}
+
+.black {
+  transform: translateX(35px);
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 50%;
+  @media (max-width: 485px) {
+    transform: translateX(0);
+  }
+}
+
+.light {
+  background-color: rgba(255, 255, 0, 0.281);
+  border-radius: 50%;
 }

@@ -18,11 +18,6 @@ export const Header: React.FC = () => {
               Проекты
             </a>
           </li>
-          <li className={s.list__item}>
-            <a href="#contacts" className={s.list__link}>
-              Контакты
-            </a>
-          </li>
         </ul>
       </nav>
     </header>

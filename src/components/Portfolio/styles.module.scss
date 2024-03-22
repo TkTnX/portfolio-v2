@@ -1,9 +1,12 @@
 .portfolio {
-  margin-top: 150px;
+  margin: 150px 0;
 }
 
 .hint {
   margin-bottom: 50px;
+  @media (max-width: 1055px) {
+    margin: 0 auto 50px;
+  }
 }
 
 .list {

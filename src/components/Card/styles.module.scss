@@ -7,6 +7,9 @@
   &:nth-child(2) {
     flex-direction: row-reverse;
   }
+  @media (max-width: 1055px) {
+    flex-direction: column;
+  }
 }
 
 .imgWrap {
@@ -39,6 +42,11 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+
+  @media (max-width: 435px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .deployment {
@@ -59,4 +67,7 @@
 
 .rowReverse {
   flex-direction: row-reverse;
+  @media (max-width: 1055px) {
+    flex-direction: column;
+  }
 }

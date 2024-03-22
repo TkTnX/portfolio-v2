@@ -1,24 +1,32 @@
 .about {
   margin-top: 150px;
-  background-color: #12121221;
   border-radius: 50px;
-  padding: 100px;
 }
 
 .wrapper {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
+
+  @media (max-width: 884px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .wrapper__img {
   max-width: 300px;
-  border-radius: 30px;
-  overflow: hidden;
+
+  img {
+    border-radius: 30px;
+  }
 }
 
 .hint {
   margin-bottom: 30px;
+  @media (max-width: 884px) {
+    margin: 0 auto 30px;
+  }
 }
 
 .text {

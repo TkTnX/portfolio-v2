@@ -3,7 +3,7 @@ import s from "./styles.module.scss";
 import img from "./img.jpg";
 export const About: React.FC = () => {
   return (
-    <section className={s.about}>
+    <section id="about" className={s.about}>
       <div className={s.wrapper}>
         <div className={s.wrapper__img}>
           <img src={img} alt="img" />

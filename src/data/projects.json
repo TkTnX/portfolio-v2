@@ -20,11 +20,11 @@
   {
     "id": 3,
     "img": "/images/03.jpg",
-    "title": "REACT PIZZA - Интернет-пиццерия 🍕",
-    "goals": "Познакомиться с TypeScript, REDUX TOOLKIT",
-    "technologies": "REACT, TYPESCRIPT, SCSS, REDUX TOOLKIT, VITE",
-    "github": "https://github.com/TkTnX/react-pizza",
-    "demo": "https://timur-react-sneakers.netlify.app/"
+    "title": "REACT BLOG 🚗",
+    "goals": "Познакомиться с MERN, Впервые работаю с NODE JS и бекендом",
+    "technologies": "REACT, NODE JS, MONGODB, EXPRESS, TAILWIND, VITE",
+    "github": "https://github.com/TkTnX/react-blog",
+    "demo": "https://timur-react-blog.vercel.app/"
   },
   {
     "id": 4,

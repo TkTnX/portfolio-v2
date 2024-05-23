@@ -42,6 +42,6 @@
     "goals": "Сайт, в котором я сделал регистрацию, админ-панель и ещё много всего!",
     "technologies": "REACT, SCSS, TYPESCRIPT, VIDE, REDUX TOOLKIT, FIREBASE",
     "github": "https://github.com/TkTnX/react-fashion",
-    "demo": "react-fashion-six.vercel.app"
+    "demo": "https://react-fashion-six.vercel.app"
   }
 ]

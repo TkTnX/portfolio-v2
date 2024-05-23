@@ -43,12 +43,12 @@ export const Title: React.FC = () => {
           <ul className={s.text__socials}>
             <li className={s.social}>
               <a href="https://github.com/TkTnX">
-                <GithubImg className={s.socialImg} />
+                <GithubImg className={`${s.socialImg} socialImg`} />
               </a>
             </li>
             <li className={s.social}>
               <a href="https://t.me/Timurka2077">
-                <TelegramImg className={s.socialImg} />
+                <TelegramImg className={`${s.socialImg} socialImg`} />
               </a>
             </li>
           </ul>

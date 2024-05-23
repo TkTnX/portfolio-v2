@@ -11,11 +11,11 @@
   {
     "id": 2,
     "img": "/images/02.jpg",
-    "title": "Slengopedia - словарь современного сленга 📚",
-    "goals": "Создать сайт для школьного проекта",
-    "technologies": "REACT, JAVASCRIPT, SCSS, CRA",
-    "github": "https://github.com/TkTnX/Slengopediya",
-    "demo": "https://slengopedia.netlify.app"
+    "title": "СЕМЁРОЧКА 🏬",
+    "goals": "Практика с Next JS, redux toolkit, tailwind, material ui",
+    "technologies": "NEXT JS, TAILWIND, MATERIAL UI, REDUX",
+    "github": "https://github.com/TkTnX/next-semerochka",
+    "demo": "https://next-semerochka.vercel.app/"
   },
   {
     "id": 3,

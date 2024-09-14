@@ -1,0 +1,39 @@
+.wrapper {
+  border: 1px solid #f0f0f0;
+  padding: 30px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+
+  img {
+    max-width: 400px;
+  }
+
+  @media (max-width: 1330px) {
+    flex-direction: column;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.review {
+  color: #6b6b6b;
+}
+
+.clientWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.client {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}

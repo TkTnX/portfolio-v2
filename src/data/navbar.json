@@ -1,0 +1,14 @@
+[
+    {
+        "name": "О себе",
+        "link": "#about"
+    },
+    {
+        "name": "Проекты",
+        "link": "#projects"
+    },
+    {
+        "name": "Отзывы и Фриланс",
+        "link": "#reviews"
+    }
+]

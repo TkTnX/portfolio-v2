@@ -1,0 +1,18 @@
+.menu {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.781);
+  display: grid;
+
+  gap: 20px;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

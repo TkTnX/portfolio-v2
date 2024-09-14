@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./styles.module.scss";
 import img from "./img.jpg";
+import Title from "../ui/Title/Title";
 export const About: React.FC = () => {
   return (
     <section id="about" className={s.about}>
@@ -9,7 +10,7 @@ export const About: React.FC = () => {
           <img src={img} alt="img" />
         </div>
         <div className={s.text}>
-          <div className={`hint ${s.hint}`}>ОБО МНЕ</div>
+          <Title title="ОБО МНЕ" className={s.hint} />
           <p className={s.info}>
             <span>Я - Тимур, фронтенд разработчик.</span> Мой путь в разработке
             начался осенью 2023 года. Сейчас мне 15 лет и я учусь в школе. Я

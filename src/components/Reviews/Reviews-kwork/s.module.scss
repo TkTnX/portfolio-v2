@@ -1,0 +1,91 @@
+.wrapper {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+
+  span {
+    color: #ffa800;
+  }
+}
+
+.userWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+
+  @media (max-width: 870px) {
+    flex-direction: column;
+  }
+}
+
+.userText {
+  max-width: 50%;
+
+  @media (max-width: 870px) {
+    max-width: unset;
+  }
+}
+
+.userTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #009900;
+
+  @media (max-width: 500px) {
+      font-size: 20px;
+  }
+}
+
+.userSubtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+
+  @media (max-width: 500px) {
+      font-size: 16px;
+  }
+}
+
+.userDesc {
+  margin-top: 30px;
+  font-weight: 300;
+  color: #000;
+
+  @media (max-width: 500px) {
+      font-size: 14px;
+      margin-top: 10px;
+  }
+}
+
+.userImgWrapper {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.userLink {
+  display: block;
+  background: #3bd640;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

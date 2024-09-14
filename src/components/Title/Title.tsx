@@ -1,8 +1,10 @@
 import React from "react";
 import s from "./styles.module.scss";
 
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import GithubImg from "./images/github.svg?react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import TelegramImg from "./images/telegram.svg?react";
 import myImg from "./images/myImg.jpg";
@@ -25,6 +27,9 @@ const technologiesList = [
   },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+  },
+  {
+    img: "/images/nextjs.svg",
   },
 ];
 
@@ -57,10 +62,10 @@ export const Title: React.FC = () => {
             <div className={s.stack__title}>
               <span>Технологии</span>
               <ul className={s.stack__list}>
-                {technologiesList.map(({ img }, index) => {
+                {technologiesList.map((item, index) => {
                   return (
                     <li className={s.stack__item} key={index}>
-                      <img width={50} src={img} alt="технология" />
+                      <img width={50} src={item.img} alt="технология" />
                     </li>
                   );
                 })}

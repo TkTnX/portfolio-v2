@@ -1,12 +1,12 @@
 [
   {
-    "id": 1,
-    "img": "/images/01.jpg",
-    "title": "Ink. House - онлайн-магазин картин 📃",
-    "goals": "Практика с Redux, React и TypeScript.",
-    "technologies": "REACT, TYPESCRIPT, SCSS, REDUX TOOLKIT, VITE",
-    "github": "https://github.com/TkTnX/inkHouse",
-    "demo": "https://timur-inkhouse.netlify.app/"
+    "id": 3,
+    "img": "/images/03.jpg",
+    "title": "Ninja Sushi 🍣",
+    "goals": "сделать свой самый крупный проект на 13.09.24",
+    "technologies": "NEXT JS, TypeScript, Tailwind, Prisma + PostgreSQL, NextAuth, React-Hook-Form, Zustand",
+    "github": "https://github.com/TkTnX/next-sushi",
+    "demo": "https://next-ninja-sushi.vercel.app/"
   },
   {
     "id": 2,
@@ -18,22 +18,11 @@
     "demo": "https://next-semerochka.vercel.app/"
   },
   {
-    "id": 3,
-    "img": "/images/03.jpg",
-    "title": "REACT BLOG 🚗",
-    "goals": "Познакомиться с MERN, Впервые работаю с NODE JS и бекендом",
-    "technologies": "REACT, NODE JS, MONGODB, EXPRESS, TAILWIND, VITE",
-    "github": "https://github.com/TkTnX/react-blog",
-    "demo": "https://timur-react-blog.vercel.app/"
-  },
-  {
-    "id": 4,
-    "img": "/images/04.jpg",
-    "title": "SELHONO | Home design 🏠",
-    "goals": "Сверстать свой первый многостраничный сайт",
-    "technologies": "HTML, SCSS, JAVASCRIPT",
-    "github": "https://github.com/TkTnX/SELHONO-HOME-DESIGN",
-    "demo": "https://timur-selhono.netlify.app/"
+    "id": 6,
+    "img": "/images/06.jpg",
+    "title": "CSSDent - Стоматология ",
+    "goals": "Огромный сайт на 20+ страниц, первый сайт на фрилансе",
+    "technologies": "HTML, CSS, JAVASCRIPT"
   },
   {
     "id": 5,
@@ -43,5 +32,24 @@
     "technologies": "REACT, SCSS, TYPESCRIPT, VIDE, REDUX TOOLKIT, FIREBASE",
     "github": "https://github.com/TkTnX/react-fashion",
     "demo": "https://react-fashion-six.vercel.app"
+  },
+  {
+    "id": 1,
+    "img": "/images/01.jpg",
+    "title": "Ink. House - онлайн-магазин картин 📃",
+    "goals": "Практика с Redux, React и TypeScript.",
+    "technologies": "REACT, TYPESCRIPT, SCSS, REDUX TOOLKIT, VITE",
+    "github": "https://github.com/TkTnX/inkHouse",
+    "demo": "https://timur-inkhouse.netlify.app/"
+  },
+
+  {
+    "id": 4,
+    "img": "/images/04.jpg",
+    "title": "SELHONO | Home design 🏠",
+    "goals": "Сверстать свой первый многостраничный сайт",
+    "technologies": "HTML, SCSS, JAVASCRIPT",
+    "github": "https://github.com/TkTnX/SELHONO-HOME-DESIGN",
+    "demo": "https://timur-selhono.netlify.app/"
   }
 ]

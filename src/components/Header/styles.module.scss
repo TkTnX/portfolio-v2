@@ -1,5 +1,15 @@
 .header {
   padding: 20px 0;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,28 +37,7 @@
   }
 }
 
-.list__item {
-  position: relative;
-  &::before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0;
-    background-color: #22abb4;
-    bottom: 0;
-    transition: all 0.2s ease-in;
-  }
 
-  &:hover {
-    &::before {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 449px) {
-    font-size: 18px;
-  }
-}
 
 .theme {
   background-color: #e4e4e4;

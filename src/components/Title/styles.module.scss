@@ -43,11 +43,8 @@
 
 .socialImg {
   max-width: 30px;
-  transition: all 0.1s ease-in;
 
-  g {
-    transition: all 0.1s ease-in;
-  }
+
 
   &:hover {
     g {
@@ -98,4 +95,11 @@
   @media (max-width: 1124px) {
     justify-self: center;
   }
+}
+
+.stack__item {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 5px;
 }

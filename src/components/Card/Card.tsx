@@ -9,8 +9,8 @@ interface CardProps {
   title: string;
   goals: string;
   technologies: string;
-  github: string;
-  demo: string;
+  github?: string;
+  demo?: string;
 }
 
 export const Card: React.FC<CardProps> = ({

@@ -1,5 +1,14 @@
 [
   {
+    "id": 7,
+    "img": "/images/07.jpg",
+    "title": "Arcadia 🟣",
+    "goals": "сверстать свой самый сложный макет на 18.09.24",
+    "technologies": "HTML, SCSS, JS",
+    "github": "https://github.com/TkTnX/Arcadia",
+    "demo": "https://arcadia-black.vercel.app"
+  },
+  {
     "id": 3,
     "img": "/images/03.jpg",
     "title": "Ninja Sushi 🍣",

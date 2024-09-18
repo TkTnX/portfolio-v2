@@ -11,22 +11,22 @@ import myImg from "./images/myImg.jpg";
 
 const technologiesList = [
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    img: "/images/js.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    img: "/images/ts.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    img: "/images/react.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    img: "/images/html.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    img: "/images/css.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    img: "/images/scss.svg",
   },
   {
     img: "/images/nextjs.svg",
@@ -42,8 +42,8 @@ export const Title: React.FC = () => {
             Front-End <span>React</span> Developer
           </h1>
           <p className={s.text__desc}>
-            Привет, меня зовут <span>Тимур</span>! Я начинающий фронтенд
-            разработчик
+            Привет, меня зовут <span>Тимур</span>! Я  фронтенд
+            разработчик, верстальщик
           </p>
           <ul className={s.text__socials}>
             <li className={s.social}>

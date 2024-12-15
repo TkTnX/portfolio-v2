@@ -1,5 +1,23 @@
 [
   {
+    "id": 8,
+    "img": "/images/08.jpg",
+    "title": "Musify 🎵",
+    "goals": "Создать приложение для прослушивания музыки",
+    "technologies": "NEXT JS, REACT 19, TAILWIND, PRISMA + POSTGRESQL, ZUSTAND",
+    "github": "https://github.com/TkTnX/Musify",
+    "demo": "https://next-musify.vercel.app"
+  },
+  {
+    "id": 9,
+    "img": "/images/09.jpg",
+    "title": "Faceb | Social Network 📱",
+    "goals": "Создать социальную сеть",
+    "technologies": "NEXT JS, REACT 19, TAILWIND, PRISMA + POSTGRESQL, ZUSTAND",
+    "github": "https://github.com/TkTnX/Faceb-Social-Network",
+    "demo": "https://faceb-social.vercel.app/"
+  },
+  {
     "id": 7,
     "img": "/images/07.jpg",
     "title": "Arcadia 🟣",

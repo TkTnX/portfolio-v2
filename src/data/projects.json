@@ -8,6 +8,15 @@
     "github": "https://github.com/TkTnX/MyTube"
   },
   {
+    "id": 12,
+    "img": "/images/12.jpg",
+    "title": "Recipe.ru 🍲",
+    "goals": "Recipe - рецепты, статьи, мастерклассы, новости кулинарии",
+    "technologies": "NEXT JS, TAILWIND, TYPESCRIPT, PRISMA + POSTGRESQL, SUPABASE, ZUSTAND",
+    "github": "https://github.com/TkTnX/recipe",
+    "demo": "https://recipe-three-lovat.vercel.app/"
+  },
+  {
     "id": 11,
     "img": "/images/11.jpg",
     "title": "Cooking 🍲",

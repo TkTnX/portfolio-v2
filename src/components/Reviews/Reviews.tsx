@@ -1,15 +1,15 @@
-import Title from '../ui/Title/Title';
-import ReviewsKwork from './Reviews-kwork/ReviewsKwork';
-import s from "./s.module.scss"
-import ReviewsSlider from './Reviews-slider/ReviewsSlider';
+import Title from "../ui/Title/Title";
+import ReviewsKwork from "./Reviews-kwork/ReviewsKwork";
+import s from "./s.module.scss";
+import ReviewsSlider from "./Reviews-slider/ReviewsSlider";
 const Reviews = () => {
   return (
     <div className={s.wrapper} id="reviews">
       <Title title="Отзывы и фриланс" />
       <ReviewsKwork />
-          <ReviewsSlider />
+      <ReviewsSlider />
     </div>
   );
-}
+};
 
-export default Reviews
+export default Reviews;

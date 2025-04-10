@@ -7,15 +7,17 @@
 
 .top {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 20px;
 
   img {
     max-width: 400px;
+    border-radius: 15px;
   }
 
   @media (max-width: 1330px) {
-    flex-direction: column;
-
     img {
       max-width: 100%;
     }

@@ -1,5 +1,14 @@
 [
   {
+    "id": 13,
+    "img": "/images/13.jpg",
+    "title": "EchoAI 🤖",
+    "goals": "EchoAI - сайт для общения с нейросетью",
+    "technologies": "NEXT JS, TypeScript, Tailwind, Shadcn UI, Prisma, NextAuth, Zod, GigaChat",
+    "github": "https://github.com/TkTnX/EchoAI",
+    "demo": "https://echo-ai-two-nu.vercel.app/"
+  },
+  {
     "id": 10,
     "img": "/images/10.jpg",
     "title": "MyTube 🎥",
